@@ -69,7 +69,7 @@ public class DateAndTime_02_Test {
     public void test_localDate_format_with_hour() {
 
         // TODO créer un objet LocalDate à la date 11/03/2015 avec la méthode of
-        LocalDate localDate = LocalDate.of(2015, 03, 11);
+        LocalDate localDate = LocalDate.of(2015, 3, 11);
 
         // TODO Formater la date pour avoir l'affichage suivant : "11/03/2015 00:00:00"
         localDate.format(DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss"));

@@ -20,7 +20,7 @@ public class DateAndTime_06_Test {
         LocalDate localDate1 = LocalDate.parse("2017-12-31");
 
         // TODO Créer une LocalDate au 01/01/2050
-        LocalDate localDate2 = LocalDate.of(2050, 01, 01);
+        LocalDate localDate2 = LocalDate.of(2050, 1, 1);
 
         // TODO créer une période (classe java.time.Period) à entre les 2 précédentes dates
         Period result = Period.between(localDate1, localDate2);
